@@ -14,42 +14,43 @@ change font-family and increase size for flagged users
   font-size: 15px;
 } */
 
+
 /* Fork by Lauritz Kramberger from https://github.com/ediited/mattermost-css-hacks.git */
 
 .Reaction__emoji {
-  margin: 0 2px 0 0;
-  max-height: 32px;
-  min-height: 32px;
-  max-width: 32px;
-  min-width: 32px;
-  vertical-align: middle;
+    margin: 0 12px 0 0;
+    max-height: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    min-width: 32px;
+    vertical-align: middle;
 }
 
 .Reaction {
-  background: transparent;
-  border: none;
-  padding: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  background: var(--center-channel-color-08);
-  fill: var(--center-channel-color-56);
-  color: var(--center-channel-color-64);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  font-size: 11px;
-  font-weight: 600;
-  min-width: 28px;
-  height: 40px;
-  margin: 0 4px 4px 0;
-  padding: 0 5px;
-  transition: border-color 100ms linear, background-color 100ms linear;
+    background: transparent;
+    border: none;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: var(--center-channel-color-08);
+    fill: var(--center-channel-color-56);
+    color: var(--center-channel-color-64);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 28px;
+    height: 40px;
+    margin: 0 4px 4px 0;
+    padding: 0 5px;
+    transition: border-color 100ms linear, background-color 100ms linear;
 }
